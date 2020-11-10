@@ -1,19 +1,21 @@
 import React from "react";
-import { Nav, NavLink, Bars, NavMenu } from "./NavbarElements";
-import Image from "../../images/home-gold.png";
+import { Nav, NavLink, Bars, NavMenu } from "./Navbar";
+// import Image from "../../images/home-gold.png";
+import "../../pages/index2.css";
 
 const Navbar = () => {
   return (
     <>
-      <Nav>
-        <NavLink to="/">
-          <p style={{ color: "Gold", fontSize: "20px" }}>
-            <img src={Image} width="30px" alt="ichigo" />
+    
+      <Nav className="nav">
+        <NavLink to="/index">
+          <p>
+            {/* <img src={Image} width="30px" alt="ichigo" /> */}
             Home
           </p>
         </NavLink>
         <Bars />
-        <NavMenu>
+        <NavMenu >
           <NavLink to="/aboutClub" activeStyle>
             About Club
           </NavLink>

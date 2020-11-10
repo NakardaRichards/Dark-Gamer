@@ -1,4 +1,5 @@
 import React from "react";
+import "./index2.css";
 
 const Home = () => {
   return (

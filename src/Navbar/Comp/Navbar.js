@@ -8,28 +8,45 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
-  z-index: 10;
-  background-color: ;
-  position: fixed;
+
+  background-color: black;
+  position: sticky;
+
   top: 0%;
   width: 100%;
+  background: #1d1e21;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-  opacity: 2;
+  opacity: 0.8;
   filter: alpha(opacity=50);
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: #cecece;
   display: flex;
   align-items: center;
   text-decoration: none;
+  text-transform: uppercase;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
 
   &.active {
-    color: #149414;
+    color: #5c5edc;
   }
+
+  &:hover {
+    text-decoration: none;
+    
+
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+
+   
+    }
+  
 `;
 
 export const Bars = styled(FaBars)`
