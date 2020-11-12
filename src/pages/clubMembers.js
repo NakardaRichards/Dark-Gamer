@@ -1,8 +1,8 @@
 import React from "react";
-import "./index2.css";
+import "./index.css";
 
 
-const ClubMembers = () => {
+export const ClubMembers = () => {
   return (
     <div className="clubMembers">
       <ul>

@@ -1,7 +1,7 @@
 import React from "react";
-import "./index2.css";
+import "./index.css";
 
-const Contact = () => {
+export const Contact = () => {
   return (
     <div className="contacts">
       <h1>Emails: </h1>

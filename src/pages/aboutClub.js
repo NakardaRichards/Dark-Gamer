@@ -1,7 +1,7 @@
 import React from "react";
-import "./index2.css";
+import "./index.css";
 
-const AboutClub = () => {
+export const AboutClub = () => {
   return (
     <div className="aboutClub">
       <p>About</p>
