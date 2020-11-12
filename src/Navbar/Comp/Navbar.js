@@ -38,15 +38,11 @@ export const NavLink = styled(Link)`
 
   &:hover {
     text-decoration: none;
-    
 
     display: inline-block;
     padding: 15px 20px;
     position: relative;
-
-   
-    }
-  
+  }
 `;
 
 export const Bars = styled(FaBars)`
