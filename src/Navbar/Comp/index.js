@@ -25,8 +25,8 @@ const Navbar = () => {
           <NavLink to="/mods" activeStyle>
             Games Modded
           </NavLink>
-          <NavLink to="/captureGallary" activeStyle>
-            Capture Gallary
+          <NavLink to="/captureGallery" activeStyle>
+            Capture Gallery
           </NavLink>
         </NavMenu>
       </Nav>

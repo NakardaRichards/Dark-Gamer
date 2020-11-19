@@ -30,8 +30,8 @@ export const AboutClub = () => {
           the structure of the vast sandbox.We don't like to mod games if they
           don't have a good storyline and an atmosphere that soothes the theme
           of said game. In short we don't mod dumb low quality games. But they
-          also many huge AAA games that are amazing sadly they are story driven
-          or linear in nature so we stay away from them.
+          also are huge AAA games that are amazing but sadly they are story
+          driven or linear in nature so we stay away from them.
         </p>
         <br></br>
         <p
