@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   padding: 0.5rem calc((100vw - 1000px) / 2);
 
   background-color: black;
-  position: sticky;
+  position: fixed;
 
   top: 0%;
   width: 100%;

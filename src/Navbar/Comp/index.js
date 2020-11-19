@@ -22,11 +22,11 @@ const Navbar = () => {
             Contact Details
           </NavLink>
 
-          <NavLink to="/trophies" activeStyle>
-            Trophies Earned
+          <NavLink to="/mods" activeStyle>
+            Games Modded
           </NavLink>
-          <NavLink to="/games" activeStyle>
-            Games
+          <NavLink to="/captureGallary" activeStyle>
+            Capture Gallary
           </NavLink>
         </NavMenu>
       </Nav>

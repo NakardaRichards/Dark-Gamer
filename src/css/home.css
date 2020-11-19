@@ -1,0 +1,19 @@
+/* .homediv {
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 100px;
+  margin-left: 10px;
+} */
+
+/* .homeContainer{
+
+} */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+

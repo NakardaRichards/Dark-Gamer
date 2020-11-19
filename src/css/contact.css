@@ -1,0 +1,12 @@
+.contacts {
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 100px;
+  margin-left: 10px;
+  background-image: url("../images/cont.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 50px;
+  -webkit-text-size-adjust: 100%;
+}

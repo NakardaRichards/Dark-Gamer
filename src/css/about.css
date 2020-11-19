@@ -1,0 +1,14 @@
+.aboutClub {
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 80px;
+
+  padding: 100px 0;
+  background-image: url("https://images4.alphacoders.com/997/thumb-1920-997129.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  line-height: 50px;
+  -webkit-text-size-adjust: 100%;
+}
