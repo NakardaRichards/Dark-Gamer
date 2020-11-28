@@ -10,13 +10,13 @@ export const Contact = () => {
       <h1>Emails: </h1>
       <ul>
         <li>
-          <a href="#">xxx-xxx-xxxx</a>
+          <a href="nakardarichards3@gmail.com">nakardarichards3@gmail.com</a>
         </li>
         <li>
-          <a href="#">xxx-xxx-xxxx</a>
+          <a href="kevardo@stu.ncu.edu.jm">kevardo@stu.ncu.edu.jm</a>
         </li>
         <li>
-          <a href="#">xxx-xxx-xxxx</a>
+          <a href="cbrown33@stu.ncu.edu.jm">cbrown33@stu.ncu.edu.jm</a>
         </li>
         <li>
           <a href="#">xxx-xxx-xxxx</a>

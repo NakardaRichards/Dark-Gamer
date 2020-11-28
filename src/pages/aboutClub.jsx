@@ -22,16 +22,16 @@ export const AboutClub = () => {
             textAlign: "center",
           }}
         >
-          Dark Gamer is an online club that focuses on the modification
-          "modding" of any games we please that is not on a console. As a club
-          we prefer to mod open world games as oppose to linear games. When you
-          think of big AAA games like GTA V and The Witcher 3, those games are
-          ideal for modification because of the mechanics of the games and also
-          the structure of the vast sandbox.We don't like to mod games if they
-          don't have a good storyline and an atmosphere that soothes the theme
-          of said game. In short we don't mod dumb low quality games. But they
-          also are huge AAA games that are amazing but sadly they are story
-          driven or linear in nature so we stay away from them.
+          Dark Gamer is a club that focuses on the modification "modding" of any
+          games we please that is not on a console. As a club we prefer to mod
+          open world games as oppose to linear games. When you think of big AAA
+          games like GTA V and The Witcher 3, those games are ideal for
+          modification because of the mechanics of the games and also the
+          structure of the vast sandbox.We don't like to mod games if they don't
+          have a good storyline and an atmosphere that soothes the theme of said
+          game. In short we don't mod dumb low quality games. But they also are
+          huge AAA games that are amazing but sadly they are story driven or
+          linear in nature so we stay away from them.
         </p>
         <br></br>
         <p
