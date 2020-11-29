@@ -4,3 +4,28 @@
   margin-top: 100px;
   margin-left: 10px;
 }
+
+.container2 {
+  display: grid;
+  grid-template-columns: 20% ;
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%);
+  gap: 7rem;
+}
+
+.sec2 {
+  position: absolute;
+  margin-top: 3400px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.sec3 {
+  position: absolute;
+  margin-top: 6020px;
+  left: 50%;
+  transform: translate(-50%);
+}
+

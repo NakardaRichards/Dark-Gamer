@@ -20,7 +20,7 @@ export const Nav = styled.nav`
 
   opacity: 0.8;
   filter: alpha(opacity=50);
-  z-index: 1000;
+  z-index: 1000;/
 `;
 
 export const NavLink = styled(Link)`

@@ -16,7 +16,7 @@ export const ClubMembers = () => {
             <h4>
               <b>Nakarda Richards</b>
             </h4>
-            <p>Founder</p>
+            <p>Founder & CEO</p>
           </div>
 
           <div className="cardHolder">
