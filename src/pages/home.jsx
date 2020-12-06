@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import "../css/home.css";
-
+import { NavItem, NavLink, Nav, Container, Row, Col } from "reactstrap";
 export const Home = () => {
   return (
     <React.Fragment>
@@ -71,6 +71,49 @@ export const Home = () => {
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
+      </div>
+      <div id="footerCont">
+        <footer className=" footer">
+          <Container>
+            <Row className=" align-items-center justify-content-md-between">
+              <Col md="6">
+                <div className=" copyright">
+                  <p>
+                    {" "}
+                    © {new Date().getFullYear()} Nakarda Richards Productions
+                  </p>
+                </div>
+              </Col>
+              <Col md="6">
+                <Nav className=" nav-footer justify-content-end">
+                  <NavItem>
+                    <NavLink
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="Our Student's Gym site"
+                      href="https://nakardareactspa.netlify.app/"
+                      target="_blank"
+                    >
+                      On The Limb
+                    </NavLink>
+                  </NavItem>
+
+                  <NavItem>
+                    <NavLink
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="My GitHub Account"
+                      href="https://github.com/NakardaRichards"
+                      target="_blank"
+                    >
+                      GitHub
+                    </NavLink>
+                  </NavItem>
+                </Nav>
+              </Col>
+            </Row>
+          </Container>
+        </footer>
       </div>
     </React.Fragment>
   );
