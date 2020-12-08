@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+
 import "../css/contact.css";
 import "../images/cont.png";
 
@@ -59,7 +60,15 @@ export const Contact = () => {
               </p>
 
               <p class="submit-button">
-                <button onClick={handleClick} type="submit">
+                <button
+                  id="butn2"
+                  onClick={handleClick}
+                  type="submit"
+                  disabled="true"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="This form doesn't work on Netlify so clone it locally and remove disable tags"
+                >
                   Submit
                 </button>
               </p>
