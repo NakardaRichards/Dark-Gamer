@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import "../css/home.css";
+import "../App.css";
 import { NavItem, NavLink, Nav, Container, Row, Col } from "reactstrap";
 export const Home = () => {
   return (

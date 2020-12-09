@@ -9,4 +9,14 @@
   display: grid;
   grid-template-columns: 20% 20% 20%;
   gap: 10rem;
+
+  @media screen and (max-width: 992px) {
+    display: grid;
+    grid-template-columns: 20%;
+   
+
+    left: 50%;
+   
+    gap: 16rem;
+  }
 }

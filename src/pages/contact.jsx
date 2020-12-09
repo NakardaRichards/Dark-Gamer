@@ -24,8 +24,8 @@ export const Contact = () => {
         </ul>
         <h1>Telephone#:</h1>
         <ul>
-          <li>xxx-xxx-xxxx</li>
-          <li>xxx-xxx-xxxx</li>
+          <li>1 876-919-9999</li>
+          <li>1 876 -616-6666</li>
         </ul>
       </div>
       <div class="container5">

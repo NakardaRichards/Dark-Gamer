@@ -1,17 +1,15 @@
 import React from "react";
 import { Nav, NavLink, Bars, NavMenu } from "./Navbar";
-// import Image from "../../images/home-gold.png";
-//import "../../pages/index.css";
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/home">
-          <p>Home</p>
-        </NavLink>
-        <Bars />
         <NavMenu>
+          <NavLink to="/home">
+            <p>Home</p>
+          </NavLink>
+
           <NavLink to="/aboutClub" activeStyle>
             About Club
           </NavLink>
